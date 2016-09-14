@@ -1,0 +1,238 @@
+/* reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+   margin-left: auto;
+   margin-right: auto;
+}
+p{
+	font-family: "Microsoft YaHei";
+	line-height: 200%;
+	text-indent: 2em;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+
+/* header */
+header{
+	background-color: #181818;
+	margin-left: auto;
+	margin-right: auto;
+}
+header,header ul{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: left;
+	align-items: center;
+}
+header li{
+    margin: 15px;  
+    font-size: 15%;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+header li:hover{
+    border-bottom: 2px solid #fff; 
+    background-color: #303030;   
+}
+
+/* section1 云图*/
+#page-main{
+	background: url(images/main-bg.png) no-repeat;
+	overflow: hidden;
+}
+#page-main-child{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+	font-family: "STHeiti";
+	font-size: 60px;
+}
+.page-main-wds{
+	color: #fff;
+}
+#page-main-wd{
+    font-size: 30px;
+}
+
+#page-main-cloud{
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+.page-main-clouds{
+	margin: auto -10px -45px -5px;
+    width: 22%; 
+} 
+
+/* section2-section7的居中和自响应 */
+.page{
+    margin-top: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 3.5%;
+}
+.page-left{
+   width: 20%;
+}
+.page-right{
+   margin-left: 15%;
+}
+.page-words{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-start;
+	justify-content: center;
+	width: 30%;
+}
+
+/* section 中的标题和字体样式 */
+.titles{
+	color: #23a6d1;
+	font-size: 250%;
+}
+.wdst{
+	color: #3a3a3a;
+}
+
+/* footer */
+footer{
+	margin: 5% auto 2% auto;
+}
+footer p{	
+	text-align: center;
+	line-height: 100%;
+	font-size: 10px;
+	color: #585858;
+}
+footer ul{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+footer li{
+	margin: 0.5%;
+	font-size: 15px;
+	color: #585858;
+
+	cursor: pointer;
+}
+footer li:hover{
+    margin: 0.53%;
+    background-color: #fff;
+}
+
+/* 图片大小自适应处理 */
+
+#logo1{
+	width: 8%;
+	margin: 1.5%;
+}
+#logo2{
+	width: 100%;
+}
+#img-6{
+	width: 13%;
+}
+.img-big1{
+	width: 80%;
+}
+.img-big2{
+	width: 50%;
+}
+.img-small{
+	width: 17%;
+}
+.img-small-gear1{
+	width: 5%;
+}
+.img-small-gear2{
+	width: 10%;
+}
+
+/* section页面背景设置 */
+.page-b-color{
+	background-color: #fff9ed;
+}
+.page-img-b{
+	border-radius: 50%;
+	background-color: #d2eef2;
+	width: 20%;
+	height: 22%;
+
+	position: relative;
+}
+/* 图片定位处理 */
+.img-big1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.img-big2{
+	margin-left: auto;
+    margin-right: auto;
+}
+#xiaoyun1{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+#xiaoyun2{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+#smallgear{
+	position: absolute;
+	top: 10px;
+	left: 40%;
+}
+#biggear{
+	position: absolute;
+	top: 15px;
+	left: 45%;
+}
+#moon{
+	position: absolute;
+	top: 20px;
+	right: 20px;	
+}
+#rocketbottom{
+    position: absolute;
+    bottom: -5px;
+    right: 50px;
+}
+#thumb1{
+	position: absolute;
+	left: 52px;
+	bottom: 187px;
+}
+#thumb2{
+	position: absolute;
+	left: 52px;
+	bottom: 64px;
+}
+#thumb3{
+	position: absolute;
+	left: 252px;
+	bottom: 162px;
+}
+#thumb4{
+	position: absolute;
+	left: 243px;
+	bottom: 72px;
+}
